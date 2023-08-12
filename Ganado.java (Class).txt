@@ -1,0 +1,29 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package main;
+
+import java.util.Date;
+import java.util.Scanner;
+
+
+public class Ganado {
+     String codigo;
+    String nombre;
+    Date fechaNacimiento;
+    double ultimoPeso;
+    char sexo;
+    String raza;
+    
+    public Ganado(String codigo, String nombre, Date fechaNacimiento, double ultimoPeso, char sexo, String raza) {
+        this.codigo = codigo;
+        this.nombre = nombre;
+        this.fechaNacimiento = fechaNacimiento;
+        this.ultimoPeso = ultimoPeso;
+        this.sexo = sexo;
+        this.raza = raza;
+    }
+
+}
+

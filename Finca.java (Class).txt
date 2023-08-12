@@ -1,0 +1,31 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package main;
+
+
+public class Finca {
+String nombre;
+    String ubicacion;
+    String nombreEncargado;
+    String cedulaEncargado;
+    String telefonoEncargado;
+    int cantidadPotreros;
+    double tamanoTotal;
+    int cantidadTotalAnimales;
+    
+    public Finca(String nombre, String ubicacion, String nombreEncargado, String cedulaEncargado,
+                 String telefonoEncargado, int cantidadPotreros, double tamanoTotal, int cantidadTotalAnimales) {
+        this.nombre = nombre;
+        this.ubicacion = ubicacion;
+        this.nombreEncargado = nombreEncargado;
+        this.cedulaEncargado = cedulaEncargado;
+        this.telefonoEncargado = telefonoEncargado;
+        this.cantidadPotreros = cantidadPotreros;
+        this.tamanoTotal = tamanoTotal;
+        this.cantidadTotalAnimales = cantidadTotalAnimales;
+    }
+    
+    
+}
